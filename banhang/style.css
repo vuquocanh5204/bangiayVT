@@ -1,0 +1,290 @@
+/* CSS Document */
+*{
+	margin:0px;
+	padding:0px;
+}
+#all{
+	width:100%;
+	height:2000px;
+	margin:auto;
+}
+#heder1{
+	width:100%;
+	height:130px;
+	margin:auto;
+}
+#top{
+	width:100%;
+	height:30px;
+	margin-top:30px;
+	background:#BEBEBE;
+	border-bottom:1px #CCCCCC solid;
+	border-top:1px #CCCCCC solid;
+	float:left;
+}
+#menu{
+	width:100%;
+	height:40px;
+	margin:auto;
+	background:#930000;
+}
+#cnt{
+	width:100%;
+	height:1800px;
+	margin:auto;
+	border-bottom:1px #CCCCCC solid;
+}
+#fod2{
+	width:1200px;
+	height:400px;
+	margin:auto;
+}
+#fod3{
+	width:1150px;
+	height:50px;
+	float:right;
+	margin-top:50px;
+}
+#fod33{
+	width:300px;
+	height:50px;
+	float:left;
+	background:#F30;
+	margin-left:50px;
+}
+
+#giua{
+	width:1200px;
+	height:1700px;
+	margin:auto;
+}
+.menu2{
+	width:600px;
+	height:286px;
+	float:left;
+	background:#FFFFFF;
+	 border: 1px solid #FFFFFF;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-radius: 10px;
+	box-shadow: 0px 0px 6px rgba(0, 0, 0, 10);
+-moz-box-shadow:0px 0px 6px rgba(0, 0, 0, 10);
+-webkit-box-shadow: 0px 0px 6px rgba(0, 0, 0, 10);
+margin-top:30px;
+}
+.chuyendong{
+	margin-top:30px;
+	width:570px;
+	margin-left:10px;
+	height:290px;
+	float:right;
+}
+.thanhm{
+    width:900px;
+	height:40px;
+	float:left;
+	margin-top:30px;
+	
+}
+.the {
+    width: 250px;
+    height: 40px;
+    float: left;	
+    background: #F30;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+.sp{
+    width:280px;
+	height:400px;
+	float:left;
+	margin-top:30px;
+	border:1px #CCCCCC solid;
+	margin-left:15px;
+}
+.sp:hover{
+    width:280px;
+	height:400px;
+	float:left;
+	margin-top:30px;
+	border:1px #FF0000 solid;
+	margin-left:15px;
+}
+
+#fod{
+	width:100%;
+	height:400px;
+	margin:auto;
+	background:#E5E5E5;
+}
+.menu {
+    width:1000px;
+    margin:0px auto;
+    background:#BEBEBE;
+    height:30px;
+   
+}
+.menu22 {
+    width:1000px;
+    margin:0px auto;
+    background:#930000;
+    height:30px;
+   
+}
+.menu li {
+    margin:0px;
+    list-style:none;
+    font-family:'Ek Mukta';
+}
+.menu22 li {
+    margin:0px;
+    list-style:none;
+    font-family:'Ek Mukta';
+}
+.menu a {
+    transition:all linear 0.15s;
+    color:#000000;
+    text-decoration:none;
+}
+.menu22 a {
+    transition:all linear 0.15s;
+    color:#000000;
+    text-decoration:none;
+}
+.menu li:hover > a, .menu .current-item > a {
+    text-decoration:none;
+    color:#000000;
+}
+.menu22 li:hover > a, .menu22 .current-item > a {
+    text-decoration:none;
+    color:#FFFFFF;
+} 
+.menu .arrow {
+    font-size:15px;
+    line-height:0%;
+} 
+/*----- css cho phần menu cha -----*/
+.menu > ul > li {
+    display:inline-block;
+    position:relative;
+    font-size:19px;
+}
+.menu22 > ul > li {
+    display:inline-block;
+    position:relative;
+    font-size:19px;
+}
+.menu > ul > li > a {
+    padding:5px 40px;
+    display:inline-block;
+    color:#000;
+}
+.menu22 > ul > li > a {
+    padding:9px 40px;
+    display:inline-block;
+    color:#FFF;
+	border-right:1px #FFF double;
+}
+.menu > ul > li:hover > a, .menu > ul > .current-item > a {
+    background:#FFFFFF;
+}
+.menu22 > ul > li:hover > a, .menu22 > ul > .current-item > a {
+    background:#840000;
+}
+/*----css cho menu con----*/
+.menu li:hover .sub-menu {
+    z-index:1;
+    opacity:1;
+}
+.sub-menu {
+    width:160%;
+    padding:5px 0px;
+    position:absolute;
+    top:100%;
+    left:0px;
+    z-index:-1;
+    opacity:0;
+    transition:opacity linear 0.15s;
+    box-shadow:0px 2px 3px rgba(0,0,0,0.2);
+    background:#CCCCCC;
+}
+.sub-menu li {
+    display:block;
+    font-size:16px;
+}
+.sub-menu li a {
+    padding:10px 30px;
+    display:block;
+}
+.sub-menu li a:hover, .sub-menu .current-item a {
+    background:#CCCCCC;
+}
+h2{
+	color:#F00;
+	padding-top:2px;
+}
+
+.coin-slider { overflow: hidden; zoom: 1; position: relative; }
+.coin-slider a{ text-decoration: none; outline: none; border: none; }
+
+.cs-buttons { font-size: 0px; padding: 10px; float: left; }
+.cs-buttons a { margin-left: 5px; height: 10px; width: 10px; float: left; border: 1px solid #B8C4CF; color: #B8C4CF; text-indent: -1000px; }
+.cs-active { background-color: #B8C4CF; color: #FFFFFF; }
+
+.cs-title { width: 545px; padding: 10px; background-color: #000000; color: #FFFFFF; }
+
+.cs-prev, 
+.cs-next { background-color: #000000; color: #FFFFFF; padding: 0px 10px; }
+#menuu ul {
+  background: #FF6600;
+  width: 250px;
+  padding: 0;
+  list-style-type: none;
+  text-align: left;
+}
+#menuu li {
+  width: auto;
+  height: 40px;
+  line-height: 40px;
+  border-bottom: 1px solid #CCCCCC;
+  padding: 0 1em;
+}
+#menuu li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  display: block;
+}
+#menuu li:hover {
+  background: #FF9966;
+}
+
+/*==Dropdown Menu==*/
+#menuu ul li {
+  position: relative;
+}
+#menuu .sub-menuu {
+  position: absolute;
+  left: 250px;
+  top: 0;
+  display: none;
+}
+#menuu li:hover .sub-menuu {
+  display: block;
+}
+#keo{
+	width:260px;
+	height:287px;
+	background:#666;
+	float:left;
+}
+#keo2{
+	width:330px;
+	height:287px;
+	float:left;
+}
+
+
